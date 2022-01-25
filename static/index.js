@@ -194,7 +194,6 @@ let _ttreg = / t{1,2}(\d+)/,
 
 function refreshGameLayer(box, loop, offset) {
     let i = Math.floor(Math.random() * 1000) % 1 + 1 + (loop ? 0 : 4);
-    console.log(i);
     for (let j = 0; j < box.children.length; j++) {
         let r = box.children[j],
             rstyle = r.style;
